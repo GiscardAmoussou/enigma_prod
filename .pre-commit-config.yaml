@@ -22,7 +22,7 @@ repos:
       args: [post_commit_tests.py]
 
     - id: commit-msg
-      name: Tests before commit msg
+      name: Tests before commit msg action
       entry: python
       language: system
       stages: [commit-msg]
